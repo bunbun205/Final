@@ -85,21 +85,16 @@
     "map.tileWidth": 16,
     "map.width": 120,
     "openFiles": [
-        "map.tmx",
-        "bgelements1.tsx",
-        "C:/Users/ADMIN/New folder/Final_Project/flutter_application_1/assets/tiles/BackGround.tmx",
-        "E:/project_1/assets/tiles/Level1.tmx",
-        "C:/Users/ADMIN/Dropbox/PC/Downloads/BackGround.tmx",
-        "C:/Users/ADMIN/New folder/Final_Project/flutter_application_1/assets/tiles/test.tmx"
+        "map.tmx"
     ],
     "project": "chapter1.tiled-project",
     "recentFiles": [
+        "map.tmx",
         "C:/Users/ADMIN/New folder/Final_Project/flutter_application_1/assets/tiles/test.tmx",
         "C:/Users/ADMIN/Dropbox/PC/Downloads/BackGround.tmx",
         "E:/project_1/assets/tiles/Level1.tmx",
         "C:/Users/ADMIN/New folder/Final_Project/flutter_application_1/assets/tiles/BackGround.tmx",
         "bgelements1.tsx",
-        "map.tmx",
         "bgelements.tsx",
         "C:/Dev/test/game/assets/tiles/level_01.tmx"
     ],
