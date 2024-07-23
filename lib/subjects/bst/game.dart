@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flame/components.dart';
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/subjects/bst/background.dart';
 import 'package:flutter_application_1/subjects/bst/chapter1.dart';
 
 class BSTGame extends FlameGame {
@@ -18,6 +19,7 @@ class BSTGame extends FlameGame {
     await images.loadAllImages();
     cam = CameraComponent.withFixedResolution(world: world, width: 1920, height:1080);
     cam.viewfinder.anchor = Anchor.topLeft;
+    cam.backdrop.add(Background(speed: 100));
     addAll([world, cam]);
     return super.onLoad();
   }
