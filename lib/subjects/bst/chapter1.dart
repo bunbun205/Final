@@ -13,7 +13,21 @@ class Chapter1 extends World{
     
     background = await TiledComponent.load('map.tmx', Vector2.all(16));
     add(background);
-    add(Player(Character: 'player'));
+
+    final spawnPointsLayer = background.tileMap.getLayer<ObjectGroup>('Spawnpoints');
+
+    for (final spawnPoint in spawnPointsLayer!.objects) {
+      switch (spawnPoint.class_) {
+        case 'Player':
+          final player = Player(
+            position: Vector2(spawnPoint.x, spawnPoint.y),
+            character: 'player',
+          );
+          add(player);
+          break;
+        default:
+      }
+    }
     return super.onLoad();
   }
 }

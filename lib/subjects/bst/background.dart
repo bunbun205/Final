@@ -16,6 +16,7 @@ class Background extends ParallaxComponent {
   Future<void> onLoad() async {
     final layers = [
       ParallaxImageData('sky.png'),
+      ParallaxImageData('cloud.png'),
       ParallaxImageData('trees.png'),
       ParallaxImageData('lamp.png'),
       ParallaxImageData('road.png'),

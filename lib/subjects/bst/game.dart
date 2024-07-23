@@ -19,7 +19,7 @@ class BSTGame extends FlameGame {
     await images.loadAllImages();
     cam = CameraComponent.withFixedResolution(world: world, width: 1920, height:1080);
     cam.viewfinder.anchor = Anchor.topLeft;
-    cam.backdrop.add(Background(speed: 100));
+    cam.backdrop.add(Background(speed: 200));
     addAll([world, cam]);
     return super.onLoad();
   }

@@ -11,8 +11,8 @@ enum player_states { idle, running }
 enum player_direction { left, right, none }
 
 class Player extends SpriteAnimationGroupComponent with HasGameRef<BSTGame>,KeyboardHandler {
-  String Character;
-  Player({position, required this.Character}) : super(position: position);
+  String character;
+  Player({position, required this.character}) : super(position: position);
   late final SpriteAnimation idle_animation;
   late final SpriteAnimation running_animation;
   final double stepTime = 1;
@@ -65,7 +65,7 @@ class Player extends SpriteAnimationGroupComponent with HasGameRef<BSTGame>,Keyb
 
   SpriteAnimation _spriteanimation(String state, int amount) {
     return SpriteAnimation.fromFrameData(
-        game.images.fromCache('$Character.png'),
+        game.images.fromCache('$character.png'),
         SpriteAnimationData.sequenced(
             amount: amount, stepTime: stepTime, textureSize: Vector2(83, 283)));
   }
