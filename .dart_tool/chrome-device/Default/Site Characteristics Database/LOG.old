@@ -1,5 +1,4 @@
-2024/07/23-14:33:50.036 29bc Reusing MANIFEST C:\Users\mayan\AppData\Local\Temp\flutter_tools.c3b2b450\flutter_tools_chrome_device.3598ca63\Default\Site Characteristics Database/MANIFEST-000001
-2024/07/23-14:33:50.039 29bc Recovering log #6
-2024/07/23-14:33:50.039 29bc (ignoring error) C:\Users\mayan\AppData\Local\Temp\flutter_tools.c3b2b450\flutter_tools_chrome_device.3598ca63\Default\Site Characteristics Database/000006.log: dropping 457 bytes; Corruption: checksum mismatch
-2024/07/23-14:33:50.040 29bc Reusing old log C:\Users\mayan\AppData\Local\Temp\flutter_tools.c3b2b450\flutter_tools_chrome_device.3598ca63\Default\Site Characteristics Database/000006.log 
-2024/07/23-14:33:50.041 29bc Delete type=0 #3
+2024/07/24-18:48:28.009 4789c Reusing MANIFEST C:\Users\MSI\AppData\Local\Temp\flutter_tools.667e4c22\flutter_tools_chrome_device.c1a41ac3\Default\Site Characteristics Database/MANIFEST-000001
+2024/07/24-18:48:28.010 4789c Recovering log #10
+2024/07/24-18:48:28.010 4789c Reusing old log C:\Users\MSI\AppData\Local\Temp\flutter_tools.667e4c22\flutter_tools_chrome_device.c1a41ac3\Default\Site Characteristics Database/000010.log 
+2024/07/24-18:48:28.011 4789c Delete type=0 #6
