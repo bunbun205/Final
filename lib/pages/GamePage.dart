@@ -14,8 +14,9 @@ class GamePage extends StatelessWidget {
         game: BSTGame(),
         overlayBuilderMap: const {
       'PauseMenu': _pauseMenuWidget,
+      'money': _moneyMenueWidget,
     },
-    initialActiveOverlays: const ['PauseMenu'],
+    initialActiveOverlays: const ['money'],
       ),
     );
   }
@@ -26,13 +27,48 @@ Widget _pauseMenuWidget(BuildContext ctx, BSTGame game){
   return Scaffold(
  body: Center(
     child: Container(
-      width: 100,
-      height: 100,
-      color: Colors.orange,
-      child: const Center(
-        child: Text('Paused'),
+      width: 1500,
+      height:800,
+      color: Color.fromARGB(255, 128, 219, 235),
+      child:Column(
+        children: [
+          Container(height:60,),
+          Text('Inventory',style: TextStyle(color: Colors.white,fontSize: 50),),
+          Container(height: 50,),
+          Row(
+            children: [
+              Container(
+                width: 1500,
+                height: 250,
+                color: Colors.blue,
+                ),
+            ],
+          ),
+          Container(height: 50,),
+          Row(
+            children: [
+              Container(
+                width: 1500,
+                height: 250,
+                color: Colors.blue,
+                ),
+            ],
+          ),
+        ],
       ),
     ),
   ),
   );
 }
+Widget _moneyMenueWidget(BuildContext ctx, BSTGame game){
+    return Scaffold(
+    body:
+    TextButton(
+      onPressed: () {},child: Text('M',style: TextStyle(color: Color.fromARGB(255, 233, 227, 55),fontSize: 20),),
+      style: TextButton.styleFrom(
+        backgroundColor: Color.fromARGB(255, 100, 242, 122),
+        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
+      ),
+    ),
+    );
+  }
