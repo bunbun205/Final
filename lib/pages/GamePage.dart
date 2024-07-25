@@ -7,28 +7,32 @@ import 'package:fullscreen_window/fullscreen_window.dart';
 class GamePage extends StatelessWidget {
   GamePage({super.key});
 
-
-  final pauseMenuIdentifier = 'PauseMenu';
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: GameWidget(
-        game: BSTGame(pauseMenuIdentifier),
-        overlayBuilderMap: {
-          'PauseMenu': _pauseMenuWidget,
-        },),
+        game: BSTGame(),
+        overlayBuilderMap: const {
+      'PauseMenu': _pauseMenuWidget,
+    },
+    initialActiveOverlays: const ['PauseMenu'],
+      ),
     );
   }
 }
 
+
 Widget _pauseMenuWidget(BuildContext ctx, BSTGame game){
   return Scaffold(
  body: Center(
-  child: Column(children: [
-    Text("inventory")
-  ],),
- ),
+    child: Container(
+      width: 100,
+      height: 100,
+      color: Colors.orange,
+      child: const Center(
+        child: Text('Paused'),
+      ),
+    ),
+  ),
   );
 }

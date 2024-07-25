@@ -10,13 +10,6 @@ import 'package:flutter_application_1/subjects/bst/chapter1.dart';
 import 'package:fullscreen_window/fullscreen_window.dart';
 
 class BSTGame extends FlameGame with KeyboardHandler {
-
-  String identifier;
-
-  BSTGame(this.identifier) {
-    overlays.add(identifier);
-  }
-
   @override
   Color backgroundColor() => const Color(0xFF211F30);
 
@@ -34,13 +27,19 @@ class BSTGame extends FlameGame with KeyboardHandler {
     return super.onLoad();
   }
 
-  // @override
-  // bool onKeyEvent(KeyEvent event, Set<LogicalKeyboardKey> keysPressed) {
-  //   // TODO: implement onKeyEvent
-  //   if(keysPressed.contains(LogicalKeyboardKey.escape)){
-  //     FullScreenWindow.setFullScreen(false);
-  //   }
+  @override
+  bool onKeyEvent(KeyEvent event, Set<LogicalKeyboardKey> keysPressed) {
+    // TODO: implement onKeyEvent
+    if(keysPressed.contains(LogicalKeyboardKey.space)){
+      if(overlays.isActive('PauseMenu')) {
+        overlays.remove('PauseMenu');
+        resumeEngine();
+      } else {
+        overlays.add('PauseMenu');
+        pauseEngine();
+      }
+    }
 
-  //   return super.onKeyEvent(event, keysPressed);
-  // }
+    return super.onKeyEvent(event, keysPressed);
+  }
 }
