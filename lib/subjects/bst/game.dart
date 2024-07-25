@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flame/components.dart';
 import 'package:flame/game.dart';
+import 'package:flame/src/game/overlay_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/services/keyboard_key.g.dart';
 import 'package:flutter_application_1/subjects/bst/background.dart';
@@ -9,6 +10,12 @@ import 'package:flutter_application_1/subjects/bst/chapter1.dart';
 import 'package:fullscreen_window/fullscreen_window.dart';
 
 class BSTGame extends FlameGame with KeyboardHandler {
+
+  String identifier;
+
+  BSTGame(this.identifier) {
+    overlays.add(identifier);
+  }
 
   @override
   Color backgroundColor() => const Color(0xFF211F30);
