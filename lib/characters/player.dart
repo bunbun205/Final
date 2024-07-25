@@ -53,8 +53,8 @@ class Player extends SpriteAnimationGroupComponent with HasGameRef<BSTGame>,Keyb
   }
 
   void _loadallanimations() {
-    idle_animation = _spriteanimation('Idle', 1);
-    running_animation = _spriteanimation('Run', 1);
+    idle_animation = _spriteanimation('Idle', 1, Vector2(84, 284));
+    running_animation = _spriteanimation('Run', 1, Vector2(122, 284));
 
     animations = {
       player_states.idle: idle_animation,
@@ -63,11 +63,11 @@ class Player extends SpriteAnimationGroupComponent with HasGameRef<BSTGame>,Keyb
     current = player_states.idle;
   }
 
-  SpriteAnimation _spriteanimation(String state, int amount) {
+  SpriteAnimation _spriteanimation(String state, int amount, Vector2 size) {
     return SpriteAnimation.fromFrameData(
         game.images.fromCache('$character.png'),
         SpriteAnimationData.sequenced(
-            amount: amount, stepTime: stepTime, textureSize: Vector2(83, 283)));
+            amount: amount, stepTime: stepTime, textureSize: size));
   }
 
   

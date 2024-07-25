@@ -25,6 +25,13 @@ class Chapter1 extends World{
           );
           add(player);
           break;
+        case 'Rem':
+          final player = Player(
+            position: Vector2(spawnPoint.x, spawnPoint.y),
+            character: 'rem',
+          );
+          add(player);
+          break;
         default:
       }
     }

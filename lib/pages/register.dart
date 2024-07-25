@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Register_Page extends StatelessWidget {
-  const Register_Page({super.key});
+class RegisterPage extends StatelessWidget {
+  const RegisterPage({super.key});
 
   @override
   Widget build(BuildContext context) {

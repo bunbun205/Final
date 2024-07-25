@@ -1,11 +1,10 @@
 import 'package:flame/flame.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/pages/GamePage.dart';
-import 'package:flutter_application_1/pages/login.dart';
-//import 'package:flutter_application_1/pages/home_page.dart';
-//import 'package:flutter_application_1/pages/login.dart';
-import 'package:flutter_application_1/pages/password_reset.dart';
-//import 'package:flutter_application_1/pages/register.dart';
+import 'package:flutter_application_1/pages/Login.dart';
+import 'package:flutter_application_1/pages/HomePage.dart';
+import 'package:flutter_application_1/pages/PasswordReset.dart';
+import 'package:flutter_application_1/pages/Register.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();

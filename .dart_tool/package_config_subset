@@ -14,6 +14,10 @@ flutter_test
 3.3
 file:///C:/Dev/flutter/packages/flutter_test/
 file:///C:/Dev/flutter/packages/flutter_test/lib/
+flutter_web_plugins
+3.2
+file:///C:/Dev/flutter/packages/flutter_web_plugins/
+file:///C:/Dev/flutter/packages/flutter_web_plugins/lib/
 archive
 3.0
 file:///C:/Users/mayan/AppData/Local/Pub/Cache/hosted/pub.dev/archive-3.6.1/
@@ -62,6 +66,10 @@ flutter_lints
 3.1
 file:///C:/Users/mayan/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-3.0.2/
 file:///C:/Users/mayan/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-3.0.2/lib/
+fullscreen_window
+2.17
+file:///C:/Users/mayan/AppData/Local/Pub/Cache/hosted/pub.dev/fullscreen_window-1.0.4/
+file:///C:/Users/mayan/AppData/Local/Pub/Cache/hosted/pub.dev/fullscreen_window-1.0.4/lib/
 leak_tracker
 3.2
 file:///C:/Users/mayan/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker-10.0.4/
@@ -102,6 +110,10 @@ petitparser
 3.2
 file:///C:/Users/mayan/AppData/Local/Pub/Cache/hosted/pub.dev/petitparser-6.0.2/
 file:///C:/Users/mayan/AppData/Local/Pub/Cache/hosted/pub.dev/petitparser-6.0.2/lib/
+plugin_platform_interface
+3.0
+file:///C:/Users/mayan/AppData/Local/Pub/Cache/hosted/pub.dev/plugin_platform_interface-2.1.8/
+file:///C:/Users/mayan/AppData/Local/Pub/Cache/hosted/pub.dev/plugin_platform_interface-2.1.8/lib/
 source_span
 2.18
 file:///C:/Users/mayan/AppData/Local/Pub/Cache/hosted/pub.dev/source_span-1.10.0/
