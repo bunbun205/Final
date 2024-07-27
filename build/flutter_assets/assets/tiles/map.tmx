@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="120" height="68" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="3">
- <tileset firstgid="1" source="bgelements.tsx"/>
- <objectgroup id="4" name="Spawnpoints">
-  <object id="1" name="Player" type="Player" x="848" y="512" width="83" height="283"/>
-  <object id="2" name="Rem" type="Rem" x="992" y="512" width="83" height="283"/>
- </objectgroup>
-</map>
