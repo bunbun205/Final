@@ -36,7 +36,7 @@ class BSTGame extends FlameGame with KeyboardHandler {
         resumeEngine();
       } else {
         // overlays.add('PauseMenu');
-        overlays.add('money');
+        overlays.add('teleportation');
         pauseEngine();
       }
     }
