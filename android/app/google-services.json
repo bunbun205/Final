@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "607390341660",
+    "project_id": "samanta-2aaa6",
+    "storage_bucket": "samanta-2aaa6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607390341660:android:6c9474e33238f75b715dd9",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdwp8EFOrM5Vho4OOe4ALfh7ByWMdntyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
