@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flame/flame.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/pages/GamePage.dart';
@@ -23,6 +24,6 @@ class MainApp extends StatelessWidget {
       home: Scaffold(
         body: GamePage(),
       ),
-        );
+    );
   }
 }

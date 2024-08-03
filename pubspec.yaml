@@ -13,6 +13,7 @@ dependencies:
   flame:
   flame_tiled:
   fullscreen_window: ^1.0.3
+  firebase_auth: 
 
 dev_dependencies:
   flutter_test:
